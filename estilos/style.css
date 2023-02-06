@@ -27,7 +27,7 @@ html, body {
 }
 
 .back {
-    height: 400px;
+    height: 600px;
     background-image: url("../imagens/background001.jpg");
     background-size: cover;
     background-position: center center;
@@ -49,18 +49,118 @@ nav > a {
     font-weight: 500;
 }
 
+/* ------------------------------------------------------------- */
+
+main > .titles {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main > .titles > img {
+    margin: 17px 20px 17px 20px;
+}
+
+main > .titles > h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
 main > h1 {
     color: white;
     text-align: center;
-    margin: 75px 0px 120px 0px;
-    font-size: 2.5em;
+    margin: 20px 0px 170px 0px;
+    font-size: 3em;
+    display: block;
 }
 
 /* ------------------------------------------------------------- */
 
 article.box01 {
     width: 950px;
-    height: 300px;
     background-color: white;
     margin: auto;
+}
+
+/* -------------------------- */
+
+main > article > form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px;
+    padding: 15px 0px;
+}
+
+.dcheckin, .dcheckout {
+    width: 204px;
+}
+
+.dcheckin > input, .dcheckout > input {
+    width: 200px;
+    height: 26px;
+    box-shadow: 0px 0px 0px 1px black inset;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.dadults, .dkids {
+    width: 104px;
+}
+
+.dadults > input, .dkids > input {
+    width: 100px;
+    height: 26px;
+    box-shadow: 0px 0px 0px 1px black inset;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.dsearch {
+    align-self: flex-end;
+}
+
+.dsearch > input {
+    width: 200px;
+    height: 34px;
+    background-color: var(--cor4);
+    color: white;
+}
+
+/* -------------------------- */
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 55px 0px 20px 0px;
+    font-weight: normal;
+}
+
+#icon {
+    height: 2px;
+    width: 60px;
+    background-color: var(--cor3);
+    margin: auto;
+}
+
+.txt01 {
+    text-align: center;
+    margin: 20px 120px 55px 120px;
+    font-weight: lighter;
+}
+
+.descriptionimg01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor1);
+}
+
+.descriptionimg01 > h4 {
+    font-size: 24px;
+    font-weight: normal;
+    height: 30px;
+    margin: 0px 61.2px;
+    color: white;
 }
